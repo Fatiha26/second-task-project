@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 import { getPosts } from "../services/api";
 
 const PostList = () => {
@@ -12,7 +12,7 @@ const PostList = () => {
         };
         fetchPosts();
     }, []);
-    
+
   return (
     <div>
      <h1>Posts</h1>
