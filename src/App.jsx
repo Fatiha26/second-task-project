@@ -5,7 +5,7 @@ import PostList from "./components/PostList";
 const App = () => {
   return(
     <Router>
-       <div>
+       <div className="bg-gray-100">
          <Routes>
            <Route path="/" element={<PostList />} />
            <Route path="/post/:id" element={<PostDetail />} />

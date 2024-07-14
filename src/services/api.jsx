@@ -9,7 +9,7 @@ export const getPosts = async () => {
     return response.data;
 };
 
-export const getPostsById = async (id) => {
+export const getPostById = async (id) => {
     const response = await api.get(`/posts/${id}`);
     return response.data;
 };

@@ -15,12 +15,12 @@ const PostDetail = () => {
     }, [id]);
 
     if(!post) 
-        return <div>Loading...</div>; 
+        return <div className='text-red-400 text-xl p-4 font bold shadow rounded'>Loading...</div>; 
   return (
-    <div>
-      <div>
-        <h1>{post.title}</h1>
-        <p>{post.body}</p>
+    <div className='p-6 container mx-auto '>
+      <div className='bg-white p-6 shadow rounded"'>
+        <h1 className='font-bold text-2xl capitalize mb-4 text-blue-500 '>{post.title}</h1>
+        <p className='text-justify text-xl'>{post.body}.</p>
       </div>    
     </div>
   );

@@ -14,12 +14,12 @@ const PostList = () => {
     }, []);
 
   return (
-    <div>
-     <h1>Posts</h1>
+    <div className="container mx-auto p-4">
+     <h1 className="text-center text-4xl font-bold text-blue-500 py-4 uppercase">Posts</h1>
       <ul>
         {posts.map(post => (
-            <li key={post.id}>
-              <Link to={`/post/${post.id}`}>
+            <li key={post.id}  className="mb-2 p-4 bg-white shadow rounded">
+              <Link to={`/post/${post.id}`} className="text-lg hover:underline">
                  {post.title}
               </Link>
             </li>
