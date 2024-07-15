@@ -47,6 +47,3 @@ List of key features and functionalities:
 - **Axios**: Axios is a JavaScript library used for making HTTP requests from browsers or Node.js applications, offering features like request and response interception, asynchronous request handling, and support for promises.
 - **Vite**: Next-generation frontend tooling for development and build.
 
-
-
-
