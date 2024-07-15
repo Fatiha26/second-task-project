@@ -19,7 +19,7 @@ const PostList = () => {
       <ul>
         {posts.map(post => (
             <li key={post.id}  className="mb-2 p-4 bg-white shadow rounded">
-              <Link to={`/post/${post.id}`} className="text-lg hover:underline">
+              <Link to={`/post/${post.id}`} className="text-lg hover:underline hover:text-blue-500">
                  {post.title}
               </Link>
             </li>

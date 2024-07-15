@@ -15,7 +15,8 @@ const PostDetail = () => {
     }, [id]);
 
     if (!post) 
-        return <div className='text-red-400 text-xl p-4 font-bold shadow rounded'>Loading...</div>;
+        return <div className='text-red-600 text-2xl p-4 font-bold shadow rounded'>
+        Post is Loading...</div>;
 
     return (
         <div className='p-6 container mx-auto'>
