@@ -32,10 +32,10 @@ List of key features and functionalities:
 
 ## Screenshots
 
-### For Large Device
-![For Large Device](src/assets/image/postlist.png)
-### For Small Device
-![For Small Device](src/assets/image/postdetail.png)
+### Post List
+![Post List](src/assets/image/postlist.png)
+### Post Details
+![Post Details](src/assets/image/postdetail.png)
 
 
 ## Technologies Used
