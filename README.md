@@ -2,14 +2,15 @@
 
 ## Overview
 
-This i the "Task 2: Interacting with REST API" (Bonus task), built using React JS and Tailwind CSS. This project interacts with the JSONPlaceholder API. The main functionality includes fetching and displaying posts from the API and allowing users to view detailed information about each post. The application is designed with a responsive layout using Tailwind CSS. React Router is implemented for navigation between the list of posts and individual post details, providing a seamless browsing experience.
+This is the "Task 2: Interacting with REST API" (Bonus task), built using React JS and Tailwind CSS. This project interacts with the JSONPlaceholder API. The main functionality includes fetching and displaying posts from the API and allowing users to view detailed information about each post. The application is designed with a responsive layout using Tailwind CSS. React Router is implemented for navigation between the list of posts and individual post details, providing a seamless browsing experience.
 
-## Technologies Used
+## Table of Contents
 
-- React JS
-- Tailwind CSS
-- Axios
-- React Router
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Screenshots](#screenshots)
+- [Technologies Used](#technologies-used)
+
 
 ## Features
 
@@ -32,10 +33,10 @@ List of key features and functionalities:
 
 ## Screenshots
 
-### For Large Device
-![For Large Device](src/assets/image/postlist.png)
-### For Small Device
-![For Small Device](src/assets/image/postdetail.png)
+### Post List
+![Post List](src/assets/image/postlist.png)
+### Post Details
+![Post Details](src/assets/image/postdetail.png)
 
 
 ## Technologies Used
