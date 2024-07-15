@@ -2,14 +2,15 @@
 
 ## Overview
 
-This i the "Task 2: Interacting with REST API" (Bonus task), built using React JS and Tailwind CSS. This project interacts with the JSONPlaceholder API. The main functionality includes fetching and displaying posts from the API and allowing users to view detailed information about each post. The application is designed with a responsive layout using Tailwind CSS. React Router is implemented for navigation between the list of posts and individual post details, providing a seamless browsing experience.
+This is the "Task 2: Interacting with REST API" (Bonus task), built using React JS and Tailwind CSS. This project interacts with the JSONPlaceholder API. The main functionality includes fetching and displaying posts from the API and allowing users to view detailed information about each post. The application is designed with a responsive layout using Tailwind CSS. React Router is implemented for navigation between the list of posts and individual post details, providing a seamless browsing experience.
 
-## Technologies Used
+## Table of Contents
 
-- React JS
-- Tailwind CSS
-- Axios
-- React Router
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Screenshots](#screenshots)
+- [Technologies Used](#technologies-used)
+
 
 ## Features
 
@@ -45,7 +46,4 @@ List of key features and functionalities:
 - **React Router**: React Router is a popular routing library for React applications, enabling declarative routing and navigation handling within single-page applications. 
 - **Axios**: Axios is a JavaScript library used for making HTTP requests from browsers or Node.js applications, offering features like request and response interception, asynchronous request handling, and support for promises.
 - **Vite**: Next-generation frontend tooling for development and build.
-
-
-
 
